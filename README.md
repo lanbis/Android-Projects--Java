@@ -9,7 +9,7 @@
 
 <br>
 <h2>Anı Defteri</h2>
-<p>Mevcut konumu kaydedip bu konuma bir isim vererek gidilen yerleri kaydetmek için kullanılan bir anı defteridir. Kaydedilen konumlar açılış ekranında liste halinde gözükür</p>
+<p>Mevcut konumu kaydedip bu konuma bir isim vererek gidilen yerleri kaydetmek için kullanılan bir anı defteridir. Kaydedilen konumlar açılış ekranında liste halinde gösterilir.</p>
 <h3>Kullanılan Özellikler:</h3>
 <ul>
 <li>RoomDB</li>
@@ -23,4 +23,16 @@
 <li>Disposable</li>
 <li>Flowable</li>
 <li>Schedulers</li>
+</ul>
+
+<br>
+<h2>Resim Defteri</h2>
+<p>Kameradan çekilen veya galeriden eklenen resim seçilerek isim, konum, tarih bilgileri ile kaydedilir. Kaydedilen resimler açılış ekranında liste halinde gösterilir.</p>
+<h3>Kullanılan Özellikler:</h3>
+<ul>
+<li>SQLite</li>
+<li>RecyclerView</li>
+<li>Permissions</li>
+<li>View Binding</li>
+<li>Image Scale</li>
 </ul>
