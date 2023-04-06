@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0B4CB1"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="399dp"
+        android:layout_height="528dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:onClick="SkorArt"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/android" />
+
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="190dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:background="#FF0000"
+        android:backgroundTint="#BF360C"
+        android:backgroundTintMode="screen"
+        android:text="Zaman: 10"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="129dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="12dp"
+        android:background="#FF0000"
+        android:backgroundTint="#BF360C"
+        android:backgroundTintMode="screen"
+        android:text="Skor: 0"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.163"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/maxText"
+        android:layout_width="162dp"
+        android:layout_height="42dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="12dp"
+        android:background="#FF0000"
+        android:backgroundTint="#BF360C"
+        android:backgroundTintMode="screen"
+        android:text="Max Skor: "
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
